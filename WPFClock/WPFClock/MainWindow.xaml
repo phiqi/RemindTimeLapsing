@@ -5,5 +5,4 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFClock"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1080" Width="1920" ShowInTaskbar="False" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" Opacity="0.1" AllowsTransparency="True" Background="#FFFFA700">
-</Window>
+        Title="MainWindow" Height="1080" ShowInTaskbar="False" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" Opacity="0.1" AllowsTransparency="True" Background="#FFFFA700" Width="1980"/>
