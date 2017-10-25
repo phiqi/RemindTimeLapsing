@@ -21,6 +21,7 @@ namespace WPFClock
             InitializeComponent();
             Topmost = true;
             m_nSecond = 0;
+            m_nHalfHourSecond = 0;
             m_timer = new Timer();
             m_timer.Interval = 1000;
             m_timer.Elapsed += HandleElapsed;
@@ -51,7 +52,7 @@ namespace WPFClock
                 Show();
             }
 
-            else if (m_nHalfHourSecond == 1800)
+            if (m_nHalfHourSecond == 1800)
             {
                 m_nHalfHourSecond = 0;
                 LockWorkStation();
